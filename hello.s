@@ -1,7 +1,7 @@
-.global _start                  // Provide program starting address to linker
+.global _main                  // Provide program starting address to linker
 .align 4                        // Make sure everything is aligned properly
 
-_start:
+_main:
         mov     X0, #1          // 1 = StdOut
         adr     X1, helloworld  // string to print
         mov     X2, #13         // length of our string

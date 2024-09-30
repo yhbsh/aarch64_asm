@@ -1,7 +1,7 @@
-.global _start
+.global _main
 .align 4
 
-_start:
+_main:
 	mov x2, xzr
 
 loop:

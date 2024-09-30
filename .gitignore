@@ -1,0 +1,5 @@
+*.o
+./hello
+./simd_add
+./fib
+./pattern
