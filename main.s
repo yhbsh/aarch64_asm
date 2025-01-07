@@ -27,6 +27,7 @@ loop:
 	mov x16, #4
 	svc 0x8
 
+	// put back the saved value of x2 into it
 	mov x2, x3
 
 	; back to loop
