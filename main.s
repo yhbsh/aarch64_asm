@@ -39,4 +39,4 @@ end_loop:
 	svc 0x8
 
 line: .ascii "\n"
-content: .ascii "Hello World"
+content: .ascii "Hello"
